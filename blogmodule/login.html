@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>管理中心</title> 
+  <style type="text/css">
+html,body{overflow:hidden;font:normal 12px 'Microsoft Yahei';color:#fff;}
+#login_form{width:300px;margin:200px auto;padding:30px 30px 50px 50px;background: rgba(51,51,51,0.5);border-radius: 10px;}
+#user,#pw{width:250px;border:1px inset #ccc;padding:8px;background:#fff;font:normal 12px 'Microsoft Yahei';outline:0;color:#4b751d}
+#user:focus,#pw:focus,#imgcode:focus{background:#f0ebaf;}
+#admin_submit{ width:270px;border-radius:2px;border:none;padding:9px 15px;background:#333;font:bold 12px 'Microsoft Yahei';color:#fff}
+#admin_submit:hover{background: #9c3;color:#fff;}
+.val { padding:3px 0;}
+#imgcode{width:180px;border:1px inset #ccc;padding:8px;background:#fff;font:normal 12px 'Microsoft Yahei';outline:0;color:#4b751d}
+</style> 
+ </head> 
+ <body> 
+  <div id="web_bg" style="position:absolute; width:100%; height:100%; z-index:-1;top:0;left:0"> 
+   <img style="position:fixed;" src="images/bg13.jpg" height="100%" width="100%" /> 
+  </div> 
+  <form name="f" action="./index.php?action=login" method="post" id="login_form"> 
+   <div id="fade1" style=""> 
+    <div style="padding:5px"></div> 
+    <strong>管理帐号</strong>： 
+    <div style="padding:3px"></div> 
+    <input type="text" name="user" id="user" placeholder="请输入管理员帐号" value="" autofocus="" required="" x-webkit-speech="" /> 
+   </div> 
+   <div id="fade2" style=""> 
+    <div style="padding:3px"></div> 
+    <strong>管理密码</strong>： 
+    <div style="padding:3px"></div> 
+    <input type="password" name="pw" id="pw" placeholder="请输入密码" required="" x-webkit-speech="" /> 
+   </div> 
+   <div id="fade3" style=""> 
+    <div style="padding:5px"></div> 
+    <input type="submit" value="立即登录" id="admin_submit" /> 
+   </div> 
+  </form>   
+ </body>
+</html>
