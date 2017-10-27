@@ -7,7 +7,7 @@ http://1.demobuttons.applinzi.com/jiajia/indexes.html
 
 http://1.demobuttons.applinzi.com/jiwei/index.html
 
-### 商城页面
+### 商城页面 (移动端)
 http://1.demobuttons.applinzi.com/shouye/html/shouye.html
 
 http://1.demobuttons.applinzi.com/house/html/house.html
